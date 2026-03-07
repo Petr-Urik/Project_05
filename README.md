@@ -20,3 +20,8 @@ mezi pohlavími a mezi různými věkovými skupinami. Poslední strana je pak v
  - pozorovat souvislost výskytu hypertenze s rostoucím věkem obyvatel
  - uvědomit si výrazný rozdíl mezi tím, jaké léky na tlak jsou lékaři předepisovány a jaké jsou pak vydávány v lékárnách
 
+## Instrukce pro nastavení cesty k datům
+Tento report využívá dynamický parametr pro načítání dat. Před prvním spuštěním (nebo při přesunu složky s daty) je nutné upravit cestu ke zdrojům:
+- V Power BI: Na kartě *Domů* klikněte na šipku u *Transformovat data* a zvolte *Upravit parametry*.
+- Upravte parametr *Cesta_k_souboru* tak, že do pole Aktuální hodnota vložíte cestu ke složce, kde máte uložená stažená zdrojová data. Vložená cesta musí končit zpětným lomítkem.
+- Potvrďte a dejte *Refresh All*.
